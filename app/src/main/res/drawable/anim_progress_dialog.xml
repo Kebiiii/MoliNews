@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 这里drawable和mipmap引用都不能预览,
+ 但是在progressbar引入时没问题-->
+<!--<animated-rotate-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:drawable="@mipmap/ic_launcher"-->
+    <!--android:duration="500"-->
+    <!--android:pivotX="50%"-->
+    <!--android:pivotY="50%" />-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:drawable="@mipmap/progress2"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:duration="500"/>
+    </item>
+</layer-list>

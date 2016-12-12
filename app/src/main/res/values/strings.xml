@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">磨砺旧闻</string>
+
+    <!-- 提供标题字符串的数组 -->
+    <array name="title">
+        <item>要闻</item>
+        <item>财经</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>历史</item>
+        <item>凤凰号</item>
+    </array>
+    <string name="news_detail">新闻详情</string>
+</resources>

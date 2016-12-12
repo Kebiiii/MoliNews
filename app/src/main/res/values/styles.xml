@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- 或者requestWindowFeature指定为NO_TITLE -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 自定义弹窗样式 -->
+    <style name="CustomProgressDialog">
+
+        <!-- 设置窗口背景为透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置窗口无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置当前窗口悬浮 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置窗口动画风格 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="CustomAppTheme">
+        <item name="colorPrimaryDark">#689F38</item>
+        <item name="colorPrimary">#8BC34A</item>
+    </style>
+
+    <style name="CustomNewsDetailTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
